@@ -98,6 +98,8 @@ function addToList(element) {
 
     playerArray.push(playerObject);
 
+    // disabled attribute added
+    element.disabled = true;
 
     document.getElementById('selected-number').innerText = playerArray.length
 
