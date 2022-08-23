@@ -15,8 +15,9 @@ document.getElementById('calc-btn').addEventListener('click', function () {
 
     const newPlayerCostTotal = perPlayerCost * playerNumber;
 
-    playerCostTextElement.innerText = newPlayerCostTotal;
+    // playerCostTextElement.innerText = newPlayerCostTotal;
     // console.log(typeof newPlayerCostTotal)
+    setTextElementValueById('player-cost', newPlayerCostTotal);
     return newPlayerCostTotal;
 })
 
@@ -43,8 +44,9 @@ document.getElementById('calc-btn-total').addEventListener('click', function () 
 
 
     const finalCost = managerCost + coachCost + newPlayerCostTotal;
-    totalTextInputField.innerText = finalCost;
 
+    // totalTextInputField.innerText = finalCost;
+    setTextElementValueById('total-cost', finalCost);
 
 
 })
