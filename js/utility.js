@@ -1,11 +1,3 @@
-// function setTextElementValueById(elementId, NewValue) {
-//     const textElement = document.getElementById(elementId);
-//     textElement.innerText = NewValue;
-
-// };
-
-
-
 // function 1
 function getInputFieldValueById(inputFieldId) {
     const playerInputField = document.getElementById(inputFieldId);
