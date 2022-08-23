@@ -1,10 +1,14 @@
 // function 1
 function getInputFieldValueById(inputFieldId) {
+
     const playerInputField = document.getElementById(inputFieldId);
     const playerInputFieldString = playerInputField.value;
     const perPlayerCost = parseFloat(playerInputFieldString);
     return perPlayerCost;
 }
+
+
+
 
 // function 2
 function getTextFieldById(textFieldId) {
