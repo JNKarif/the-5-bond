@@ -8,7 +8,7 @@ document.getElementById('calc-btn').addEventListener('click', function () {
     // function 2 applied
     const playerNumber = getTextFieldById('selected-number')
 
-    // function 3 applied
+    // function 2 applied
     const playerCostTextTotal = getTextFieldById('player-cost')
 
     // total calculation

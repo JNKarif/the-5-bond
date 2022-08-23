@@ -14,11 +14,8 @@ function getTextFieldById(textFieldId) {
     return playerNumber;
 }
 
-
-
 // function 3
 function setTextElementValueById(elementId, NewValue) {
     const textElement = document.getElementById(elementId);
     textElement.innerText = NewValue;
-
 };
