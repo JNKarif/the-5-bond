@@ -8,8 +8,6 @@ function getInputFieldValueById(inputFieldId) {
 }
 
 
-
-
 // function 2
 function getTextFieldById(textFieldId) {
     const playerNumberElement = document.getElementById(textFieldId);
